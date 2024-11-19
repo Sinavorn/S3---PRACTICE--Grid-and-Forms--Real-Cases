@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #e3bfbf;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+.cart, .summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.cart {
+    flex: 3;
+    margin-right: 20px;
+}
+.summary {
+    flex: 1;
+    max-width: 300px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+.item img {
+    width: 80px;
+    height: 90px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+.item-details {
+    flex: 1;
+}
+.item-details h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.price {
+    color: #a99595;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.stock {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.in-stock {
+    color: rgb(12, 229, 12);
+}
+.out-stock {
+    color: rgba(246, 0, 0, 0.942);
+}
+.available-soon {
+    color: rgb(182, 180, 177);
+}
+.quantity {
+    display: flex;
+    align-items: center;
+}
+.quantity button{
+    font-size: 8px;
+    padding: 5px;
+    margin: 0 5px;
+}
+.quantity input {
+    margin: 0 5px;
+    padding: 5px;
+    font-size: 15px;  
+}
+.quantity input {
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px;
+    margin: 0 5px;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+}
+.actions button {
+    background-color: transparent;
+    border: none;
+    color: #abaeb1;
+    font-size: 14px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    gap:  5px
+}
+.actions button i {
+    font-size: 15px;
+}
+.actions button:hover {
+    text-decoration: underline;
+}
+.summary h2,
+.summary p {
+    margin-bottom: 10px;
+}
+.delivery-options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;  
+}
+.delivery-options button,
+.promo input,
+.promo button,
+.free,
+.actions button {
+    margin: 5px 0;
+}
+.delivery-options button,
+.free button,
+.promo button,
+.checkout {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    color: rgb(34, 30, 30);
+    background-color: #edf0f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.promocode {
+    display: flex;
+    margin-bottom: 0;  
+}
+.promocode input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.divider {
+    border: none;
+    border-top: 1px dashed #4c3f3f;
+    margin: 20px 0;
+}
+.delivery-options button:hover, .promo button:hover, .checkout:hover {
+    background-color: #4b719a;
+}
+.totals {
+    margin: 20px 0;
+}
+
+.checkout, .continue {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; 
+}
+.checkout {
+    background-color: #1f92ea;
+    color: white;
+    box-shadow: 0 4px 8px rgba(207, 183, 183, 0.3);  
+}
+.space0{
+    margin-left: 130px;
+}
+.space{
+    margin-left: 120px;
+}
+.space1{
+    margin-left: 80px;
+}
+.space2{
+    margin-left: 132px;
+}
+.space3{
+    margin-left: 152px;
+}
+.checkout:hover {
+    background-color: #a21188;
+}
+.continue {
+    background-color: #f4f4f4;
+    color: #775252;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(197, 179, 179, 0.3);
+}
+.continue:hover {
+    background-color: #eaeaea;
+}
+
+

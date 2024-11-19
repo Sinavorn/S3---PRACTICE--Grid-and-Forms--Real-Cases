@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.more-options{
+    margin-left: 20%;
+    margin-top: -6%;
+}
+
+.header-text {
+    flex-grow: 1;
+
+}
+
+.timestamp {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: -7px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-image {
+    width: 50vh;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    background-color: rgb(112, 107, 107);
+    border-radius: 100%;
+}
+
+.content-text {
+    padding: 10px;
+    position: absolute;
+    top: 70%;
+    left: 9%;
+    color: #ddd;
+}
+
+.footer {
+    padding: 10px 1px;
+}
+
+.footer-icons  {
+    display: flex;
+    justify-content: space-around;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.comment-section {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: 1px;
+    margin-bottom: -10px;
+    border-top: 1px solid cornsilk;
+    background-color: rgb(233, 229, 225);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.comment-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.comment-input {
+    flex-grow: 1;
+    border: 1px  #d1baba;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.fa-regular,
+.gif-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+.gif-icon{
+    font-size: 9px;
+    padding: 7px;
+    color: #fff;
+    background-color: #989393;
+    border-radius: 100px;
+    margin-right: 20px;
+}
